@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 0 0 15px 15px;
+}
+header h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: yellow;
+    padding: 15px;
+    border: 3px solid yellow;
+    border-radius: 35px;
+}
+header nav{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    list-style-type: none;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+header nav ul li{
+    margin: 0 10px;
+}
+header a{
+    text-decoration: none;
+    cursor: pointer;
+    color: yellow;
+    font-size: 30px;
+    padding: 15px;
+    border: 3px solid yellow;
+    border-radius: 35px;
+    font-weight: bold;
+}
+header a:hover{
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: yellow;
+    border-radius: 15px 15px 0 0;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+footer nav{
+    display: flex;
+    justify-content: space-around;
+    padding-block-start: 20px;
+
+}
+footer nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    width: 100%;
+    justify-content: center;
+}
+footer nav ul li{
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    border: 3px solid yellow;
+    border-radius: 35px;
+}
+footer nav ul li:hover{
+    background-color: yellow;
+    color: black;
+    transition: 0.5s;
+}
+footer a{
+    cursor: pointer;
+}
